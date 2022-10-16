@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding:2rem 0 0 2rem ;
+    font-size: 10px;
+   align-content: center;
+}
+h2{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+}
+img{
+    width: 12.5rem;
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+h1{
+    font-family: 'Space Mono', monospace;
+    max-width: 10rem;
+    font-size: 1.3rem;
+   
+}
+p{
+    font-family: 'Space Mono', monospace;
+    max-width: 23rem;
+    font-size: 1.3rem;
+    padding: 2rem 0;
+}
+button{
+    border: none;
+    background-color: #333333;
+    color: #fff;
+    font-family: 'Space Mono', monospace;
+    padding: 1rem;
+}
