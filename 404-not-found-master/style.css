@@ -4,18 +4,26 @@
     box-sizing: border-box;
 }
 body{
-    padding:2rem 0 0 2rem ;
+    /* padding:2rem 0 0 2rem ; */
     font-size: 10px;
-   align-content: center;
+   /* margin: 0 auto;
+   width: 800px; */
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 h2{
     font-family: 'Inconsolata', monospace;
     font-size: 1.5rem;
+    margin: 2rem 1.5rem;
 }
 img{
-    width: 12.5rem;
+    width: 15.5rem;
     padding: 2rem 0;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 h1{
     font-family: 'Space Mono', monospace;
@@ -35,4 +43,16 @@ button{
     color: #fff;
     font-family: 'Space Mono', monospace;
     padding: 1rem;
+}
+@media only screen and (min-width: 48rem) {
+main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 5rem;
+    flex-direction: row;
+}
+section{
+    padding-left: 2rem;
+}
 }
